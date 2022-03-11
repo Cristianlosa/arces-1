@@ -73,7 +73,7 @@ class Chat extends Component {
       <div>
         <div className="chatbox">
           <div className="chat-heading">
-            <h3 className="white">Chat React e WebSockets</h3>
+            <h3 className="white">Chat React e WebSockets da Arces</h3>
           </div>
           {/* key={message.id ? message.id : 0} */}
           <div id="messages" className="messages">
