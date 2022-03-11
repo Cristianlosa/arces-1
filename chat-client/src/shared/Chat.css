@@ -1,17 +1,15 @@
 .chatbox {
-  width: 60%;
+  width: 40%;
   margin: auto;
   border-radius: 10px;
   background-color: #07387e;
   border: 1px solid rgb(94, 90, 90);
 }
 
-#wrapper {
-  display: flex;
-}
-
 .chat-heading{
+  text-align: center;
   line-height: 80px;
+  
 }
 
 .message-input{
@@ -27,15 +25,20 @@
   flex-grow: 1;
 }
 
-.message-from{
+#message-wrapper {
   display: flex;
-  align-items: center;
+  align-items: baseline;
+}
+
+.message-from{
+  /* display: flex; 
+  align-items: center;*/
   margin: 10px;
   color: rgb(48, 47, 51);
 }
 .message-text {
-  display: flex;
-  align-items: center;
+  /* display: flex; 
+  align-items: center;*/
   padding: 20px 40px;
   font-weight: 300;
   font-size: 1.2rem;
@@ -44,7 +47,7 @@
 
 .messages {
   overflow-y: scroll;
-  height: 60vh;
+  height: 50vh;
   padding: 20PX;
   background-color: #f9fafc;
 }
